@@ -1,0 +1,22 @@
+.gameChara{background: url(../Img/bg_03.jpg) no-repeat 0 0/100% 100%;overflow: hidden;position: relative;}
+/* 第四页简介 */
+.gameChara>div:nth-child(1){width: 1026px;height: 106px;background: url(../Img/head.png) no-repeat 0 0/100% 100%;margin: 80px auto 10px;}
+/* 轮播图 */
+.gameMap{width: 950px;height: 413px;margin: 0 auto 20px;position: relative;overflow: hidden;}
+.gameMap>div{transition: all .5s;}
+.gameMap>div:nth-child(1){width: 426px;height: 239px;position: absolute;left: -119px;top: 88px;z-index: 0;}
+.gameMap>div:nth-child(2){width: 569px;height: 326px;position: absolute;left: 0;top: 43px;z-index: 1;}
+.gameMap>div:nth-child(3){width: 712px;height: 413px;position: absolute;left: 119px;top: 0;z-index: 2;}
+.gameMap>div:nth-child(4){width: 569px;height: 326px;position: absolute;right: 0;top: 43px;z-index: 1;}
+.gameMap>div:nth-child(5){width: 426px;height: 239px;position: absolute;right: -119px;top: 88px;z-index: 0;}
+.upImg{width: 100%;height: 100%;background: rgba(0,0,0,.5);position: absolute;top: 0;left: 0;z-index: 3;}
+.downImg{width: 100%;height: 100%;background: rgba(0,0,0,0);position: absolute;top: 0;left: 0;z-index: 3;}
+/* 小圆点 */
+.gameChara>div:nth-child(3){width: 158px;height: 40px;margin: 0 auto;}
+.gameMapBoll>li{float: left;width: 20px;height: 21px;margin: 10px 5px 0;background: url(../Img/garden.png) no-repeat 0 0/100% 100%;}
+.gameMapBoll>li:nth-child(1){background: url(../Img/garden-click.png) no-repeat 0 0/100% 100%;}
+/* 箭头 */
+.mapLeft{display: inline-block; width: 55px;height: 47px;position: absolute;background: url(../Img/leftboll.png) no-repeat 0 0/100% 100%;left: 100px;top: 400px;}
+.mapRight{display: inline-block; width: 55px;height: 47px;position: absolute;background: url(../Img/rightboll.png) no-repeat 0 0/100% 100%;right: 100px;top: 400px;}
+
+

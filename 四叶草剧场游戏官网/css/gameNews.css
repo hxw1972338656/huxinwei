@@ -1,0 +1,40 @@
+.gameNews{background: url(../Img/bg_01.jpg) no-repeat 0 0/100% 100%;overflow: hidden;}
+/* 第二页简介 */
+.gameNews>div:nth-child(1){width: 712px;height: 87px;background: url(../Img/press-head.png) no-repeat 0 0/100% 100%;margin: 80px auto 10px;}
+/* 轮播图 */
+.newsMain{width: 1281px;height: 436px;background: url(../Img/content-bg.png) no-repeat 0 0/100% 100%;margin: 0 auto;overflow: hidden;}
+.hideImg{float: left;width: 595px;height: 350px;background: url(../Img/slideshow-bg.png) no-repeat 0 0/100% 100%;margin: 40px 0 0 30px;position: relative;}
+.hideClickImg{width: 554px;height: 306px;transform: translateX(21px) translateY(21px);}
+.hideClickImg>a{display: block;width: 100%;height: 100%;background: url(../Img/f1.jpg) no-repeat 0 0/100% 100%;}
+/* 小圆点 */
+.hideBoll{width: 554px;height: 22px;background: rgba(0,0,0,.4);position: absolute;bottom: 10px;left: 21px;}
+.hideBoll>li{float: left;width: 18px;height: 18px;margin: 2px;border-radius: 50%;cursor: pointer;}
+.hideBoll>li.hideClick{background: url(../Img/circle-onClick.png) no-repeat 0 0/100% 100%;}
+.hideBoll>li.hideUnClick{background: url(../Img/circle.png) no-repeat 0 0/100% 100%;}
+/* 第二页内容 */
+.watchNews{width: 595px;height: 350px;margin: 40px 0 0 655px;position: relative;overflow: hidden;}
+/* 标题 */
+.watchNews>div:nth-child(1){width: 595px;height: 59px;}
+.newsClick{width: 432px;height: 59px;overflow: hidden;float: left;}
+.newsClick>li{width: 132px;height: 47px;float: left;margin: 6px;cursor: pointer;}
+.newsClick>li:nth-child(1){background: url(../Img/newest-onClick.png) no-repeat 0 0/100% 100%;}
+.newsClick>li:nth-child(2){background: url(../Img/bulletin.png) no-repeat 0 0/100% 100%;}
+.newsClick>li:nth-child(3){background: url(../Img/activity.png) no-repeat 0 0/100% 100%;}
+.watchNews>div:nth-child(1)>a{float: right;display: inline-block;width: 141px;height: 34px;background: url(../Img/more.png) no-repeat 0 0 /100% 100%;transform: translateY(15px);}
+/* 主要内容 */
+.specific{width: 595px;height: 220px;}
+.specific>ul{width: 595px;height: 220px;}
+.specific>ul>li{width: 595px;height: 39px;border-bottom: 1px solid rgba(255,255,255,.1);text-indent: 16px;margin-bottom: 5px;}
+.specific>ul>li>a{font-size: 22px;color: #f3f6b6;}
+.specific>ul>li>span{float: right;font-size: 18px;color: #9b856e;margin-right: 18px;}
+.specific>ul:nth-child(1){display: block;}
+.specific>ul:nth-child(2){display: none;}
+.specific>ul:nth-child(3){display: none;}
+
+
+
+
+
+
+
+

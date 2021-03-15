@@ -1,0 +1,50 @@
+/* 第一层nav */
+.gameImg{background: url(../Img/bg1.jpg) no-repeat 0 0/100% 100%;min-width: 1220px;}
+.nav{width: 100%;height: 40px;background: rgba(255,255,255,1);position: fixed;top: 0;z-index: 10;}
+.nav>img{margin-left: 10px;width: 140px;float: left;}
+.nav>span{width: 122px;height: 29px;background: rgba(0,139,255,1);float: right;margin-top: 5px;line-height: 29px;text-align: center;color: rgba(255,255,255,1);font-size: 18px;letter-spacing: 4px;cursor: pointer;text-indent: 6px;}
+.nav>a{float: right;color: black;line-height: 40px;margin: 0 10px;}
+.nav>a:hover{color: #0b8585;}
+/* 第二层nav */
+.nav>div{width: 75%;height: 91px;background: url(../Img/header.png) no-repeat 0 0;position: absolute;top: 40px;right: 0;}
+.nav>div>ul:nth-child(1){width: 629px;height: 91px;transform: translateX(164px);}
+.nav>div>ul:nth-child(1)>li{float: left;cursor: pointer;}
+.link{display: block;float: left;width: 23px;height: 18px;background: url(../Img/link.png) no-repeat;position: relative;top: 40px;}
+.nav-home{width: 140px;height: 63px;background: url(../Img/home.png) no-repeat 0 12px/100% auto;}
+.nav-news{width: 140px;height: 63px;background: url(../Img/news.png) no-repeat 0 12px/100% auto;}
+.nav-role{width: 140px;height: 63px;background: url(../Img/actor.png) no-repeat 0 12px/100% auto;}
+.nav-chara{width: 140px;height: 63px;background: url(../Img/theater.png) no-repeat 0 12px/100% auto;}
+.nav-home:hover{background: url(../Img/header-home-click.png) no-repeat 0 12px/100% auto;}
+.nav-news:hover{background: url(../Img/header-news-click.png) no-repeat 0 12px/100% auto;}
+.nav-role:hover{background: url(../Img/header-actor-click.png) no-repeat 0 12px/100% auto;}
+.nav-chara:hover{background: url(../Img/header-theater-click.png) no-repeat 0 12px/100% auto;}
+.share{padding-left: 50px; width: 250px;height: 67px;background: url(../Img/share.png) no-repeat;position: absolute;top: 0;right: -250px;}
+.share>li{float: left;width: 46px;height: 46px;margin-top: 10px;margin-right: 10px;cursor: pointer;}
+.share>li:nth-child(1){background: url(../Img/qq.png) no-repeat 0 0/100% 100%;}
+.share>li:nth-child(2){background: url(../Img/wb.png) no-repeat 0 0/100% 100%;}
+.share>li:nth-child(3){background: url(../Img/tap.png) no-repeat 0 0/100% 100%;}
+.share>li:nth-child(4){background: url(../Img/bbs.png) no-repeat 0 0/100% 100%;}
+.share>li:nth-child(1):hover{background: url(../Img/qq-click.png) no-repeat 0 0/100% 100%;}
+.share>li:nth-child(2):hover{background: url(../Img/wb-click.png) no-repeat 0 0/100% 100%;}
+.share>li:nth-child(3):hover{background: url(../Img/tap-click.png) no-repeat 0 0/100% 100%;}
+.share>li:nth-child(4):hover{background: url(../Img/bbs-click.png) no-repeat 0 0/100% 100%;}
+.share>span{width: 20px;height: 20px;background: url(../Img/open.png) no-repeat 0 0/100% 100%;position: absolute;top: 24px;left: 20px;cursor: pointer;transition: all 1s;}
+.share>span.shareClick{width: 20px;height: 20px;background: url(../Img/close.png) no-repeat 0 0/100% 100%;position: absolute;top: 24px;left: 20px;cursor: pointer;transition: all 1s;}
+/* 名字图片 */
+.gameImg>div:nth-child(2){width: 261px;height: 127px;position: absolute;top:5%;left: 4%;background: url(../Img/logo.png) no-repeat 0 0/100%;}
+/* 视频 */
+.gameVideo{width: 563px;height: 206px;background: url(../Img/slogan.png) no-repeat 0 0/100% 100%;position: absolute;top: 48.5%;left: 33%;}
+.gameVideo>div{width: 82px;height: 82px;position: absolute;top: 15%;left: 59%;}
+.gameVideo>div:nth-child(1){background: url(../Img/video-bg.png) no-repeat 0 0/100% 100%;transition: all linear .2s;}
+.gameVideo>div:nth-child(2){background: url(../Img/video-btn.png) no-repeat 0 0/100% 100%;cursor: pointer;}
+/* 下载链接 */
+.gameImg>div:nth-child(4){padding-top: 15px; width: 510px;height: 85px;background: url(../Img/make-bg.png) no-repeat 0 0/100% 100%;position: absolute;top: 74%;left: 35%;}
+.gameImg>div:nth-child(4)>img{cursor: pointer;margin-left: 23px;}
+/* pv */
+.pv{width: 100%;height: 787px;position: fixed;background: rgba(0,0,0,.5);z-index: 11;display: none;}
+.pv>div{width: 775px;height: 427px;margin: 0 auto;transform: translateY(32%);background: black;}
+.pv>div>video{width: 775px;height: 427px;border: 2px solid white;}
+.closeVideo{width: 53px;height: 53px;color: white;position: fixed;transform: translateY(-270px);margin-left: 1152px;font-size: 30px;text-align: center;cursor: pointer;}
+.closeVideo>div{width: 53px;height: 0;border: 1px solid white;}
+.closeVideo>div:nth-child(1){transform: rotate(45deg);position: relative;top: 2px;}
+.closeVideo>div:nth-child(2){transform: rotate(-45deg);}

@@ -1,0 +1,26 @@
+.gameRole{background: url(../Img/bg2.jpg) no-repeat 0 0/100% 100%;overflow: hidden;position: relative;}
+/* 第三页简介 */
+.gameRole>div:nth-child(1){width: 1026px;height: 106px;background: url(../Img/content-header.png) no-repeat 0 0/100% 100%;margin: 80px auto 10px;}
+/* 箭头 */
+.gameRole>div:nth-child(2){width: 1326px;height: 74px;position: absolute;top: 500px;left: 100px;z-index: 3;}
+#clickLeft{width: 38px;height: 74px;float: left;}
+#clickRight{width: 38px;height: 74px;float: right;}
+/* 切换人物 */
+.changePerson{width: 705px;height: 90px;background: url(../Img/pagination-bg.png) no-repeat 0 0/100% 100%;position: absolute;bottom: 50px;left: 200px;z-index: 3;}
+.changePerson>span{width: 124px;height: 120px;display: block;margin-top: -36px;transform: translateX(35px);float: left;position: relative;}
+.changePerson>span>img.changeImg{position: absolute;left: -11px;top: 3px;}
+/* 人物图片 */
+.person{width: 100%;height: 591px;background: url(../Img/botton.png) no-repeat 0 0/auto 100%;}
+.personHide{width: 100%;height: 100%;position: relative;}
+.personHide>li{width: 100%;height: 100%;position: absolute;top: 0;left: 0;opacity: 0;}
+.personHide>li>img:nth-child(1){position: absolute;top: 40px;right: 736px;z-index: 1;}
+.personHide>li>img:nth-child(2){width: 841px;height: 886px;position: absolute;top: -100px;left: 892px;}
+.personHide>li>img:nth-child(3){width: 193px;height: 143px;position: absolute;bottom: 0;right: 320px;}
+.personHide>li>img:nth-child(4){width:100%;height: auto;position: absolute;bottom: -50px;left: 50px;}
+.personHide>li>img:nth-child(5){width:100%;height: auto;position: absolute;bottom: -50px;left: 150px;}
+.personHide>li>img:nth-child(6){width:120px;height: auto;position: absolute;left: 295px;top: 200px;}
+.personHide>li>img:nth-child(7){width:25px;height: auto;position: absolute;left: 430px;top: 203px;}
+.personHide>li>img:nth-child(8){width:126px;height: 126px;position: absolute;bottom: 180px;right: 480px;z-index: 5;}
+/* 查看详情 */
+.gameRole>a{position: absolute;bottom: 85px;left:30px;font-size: 20px;color: #7d5417;}
+

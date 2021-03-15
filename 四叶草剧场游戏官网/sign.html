@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>登录/注册</title>
+		<link rel="icon" type="text/css" href="img/favicon.ico"/>
+		<link rel="stylesheet" type="text/css" href="css/sign.css"/>
+	</head>
+	<body>
+		<div class="box">
+			<!-- 导航栏 -->
+			<div class="nav">
+				<img src="Img/header-log.png">
+				<span>客服中心</span>
+				<a href="company.html">关于我们</a>
+				<a href="index.html">回到首页</a>
+			</div>
+			<!-- 登录注册 -->
+			<div class="signMain">
+				<div><span class="signClick">登录</span><span class="registerClick">注册</span></div>
+				<div>
+					<span><p class="userwarning">请输入6-12位用户名<b>!</b></p></span><input type="text" id="user" placeholder="6-12位任意中英数字用户名" autocomplete="off" ><br>
+					<span><p class="passwarning">密码为至少包含大写字母、小写字母和数字<b>!</b></p></span><input type="password" id="pass" placeholder="8-16位英文数字密码" autocomplete="off" ><br>
+				</div>
+				<div>
+					<p class="submitBoll">点击登录</p>
+				</div>
+				<div>
+					<p>分享到：</p>
+					<img src="Img/qq-click.png" alt="">
+					<img src="Img/wb-click.png" alt="">
+					<img src="Img/tap-click.png" alt="">
+					<img src="Img/bbs-click.png" alt="">
+				</div>
+				<div></div>
+			</div>
+			<!-- 欢迎加入 -->
+			<div class="welcome">
+				<img src="Img/icon-b-active.png" >
+				<p>欢迎加入四叶草</p>
+				<img src="Img/clover.png" >
+			</div>
+			<!-- 验证账号成功 -->
+			<div class="success">
+				<div>
+					<p>您已完成账户验证</p>
+					<p>正在前往首页</p>
+					<ul class="indexBoll">
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+				<a href="index.html" id="index"></a></div>
+		</div>
+	</body>
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/sign.js"></script>
+</html>

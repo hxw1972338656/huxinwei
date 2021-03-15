@@ -1,0 +1,68 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+li{list-style: none;}
+.box{width: 100%;height: 761px;position: relative;min-width: 1220px;}
+/* 导航栏 */
+.nav{width: 100%;height: 40px;width: 100%;height: 40px;background: rgba(255,255,255,1);}
+.nav>img{margin-left: 10px;width: 140px;float: left;}
+.nav>span{width: 122px;height: 29px;background: rgba(0,139,255,1);float: right;margin-top: 5px;line-height: 29px;text-align: center;color: rgba(255,255,255,1);font-size: 18px;letter-spacing: 4px;cursor: pointer;text-indent: 6px;}
+.nav>a{float: right;color: black;line-height: 40px;margin: 0 10px;}
+.nav>a:hover{color: #0b8585;}
+/* 正文 */
+/* 左边图片 */
+.box>div:nth-child(2){width: 100%;height: 721px;background: url(../Img/bg2.jpg) no-repeat 0 0/100% 100%;position: relative;overflow: hidden;opacity: 1;left: 0;}
+.box>div:nth-child(2)>div:nth-child(1){width: 550px;height: 100%;float: left;}
+.roleBollContent{width: 100%;height: 100%;position: relative;}
+.roleBollContent>li{width: 100%;height: 100%;position: absolute;top: 0;left: 0;opacity: 0;}
+.roleBollContent>li:nth-child(1){background: url(../Img/character-ttly.png) no-repeat 0 80px/100% auto;opacity: 1;}
+.roleBollContent>li:nth-child(2){background: url(../Img/character-myl.png) no-repeat 0 80px/100% auto;}
+.roleBollContent>li:nth-child(3){background: url(../Img/character-lili.png) no-repeat 0 80px/100% auto;}
+.roleBollContent>li:nth-child(4){background: url(../Img/character-b.png) no-repeat 0 80px/100% auto;}
+.roleBollContent>li:nth-child(5){background: url(../Img/character-aqie.png) no-repeat 0 80px/100% auto;}
+/* 中间角色详情 */
+.roleMain{width: 400px;height: 100%;float: left;opacity: 1;margin-right: 10px;position: relative;}
+.roleMain>img{margin-left: 30px;}
+.roleMainBoll{width: 100%;height: 180px;background: white;border-radius: 50px;border: 10px solid #7d5417;margin-bottom: 20px;background: #eed1a6;position: relative;}
+.roleMainBoll>li{width: 100%;height: 100%;position: absolute;top: 0;left: 0;text-indent: 2em;opacity: 0;}
+.roleMainBoll>li>p:nth-child(1){font-size: 30px;color: white;margin-bottom: 5px;}
+.roleMainBoll>li>p:nth-child(2){font-size: 25px;color: yellow;font-weight: 900;margin-bottom: 5px;}
+.roleMainBoll>li>img{margin: 0 30px 5px;}
+.roleMainBoll>li>span{font-size: 20px;margin: 0 36px;color: white;}
+.roleMainBoll>li:nth-child(1){opacity: 1;}
+.roleMainBoll>li:nth-child(5)>p:nth-child(2){color: #f273f2;}
+.roleMainSkill{width: 100%;height: 180px;background: white;border-radius: 50px;border: 10px solid #7d5417;background: #eed1a6;position: relative;}
+.roleMainSkill>li{width: 100%;height: 100%;position: absolute;top: 0;left: 0;padding-top: 10px;display: none;opacity: 0;}
+.roleMainSkill>li>span{display: inline-block;float: left;margin: 0 17px;width: 100px;height: 27px;font-size: 20px;border-radius: 10px;text-align: center;color: white;}
+.roleMainSkill>li>span:nth-child(1){background: #ecb158;}
+.roleMainSkill>li>span:nth-child(3){margin-right: 0;}
+.roleMainSkill>li>div{width: 90%;height: 90px;float: left;position: absolute;top: 60px;left: 0;padding:0 5%;display: none;}
+.roleMainSkill>li>div>p:nth-child(1){font-weight: 900;margin-bottom: 10px;}
+.roleMainSkill>li>div>p:nth-child(2){font-size: 14px;}
+.roleMainSkill>li>div:nth-child(4){display: block;}
+.roleMainSkill>li:nth-child(1){display: block;opacity: 1;}
+/* 右边图片 */
+.box>div:nth-child(2)>div:nth-child(3){width: 550px;height: 100%;float: left;position: relative;right: 0;}
+.roleBollCut{width: 100%;height: 100%;position: relative;}
+.roleBollCut>li{width: 100%;height: 100%;position: absolute;top: 0;right: 0;opacity: 0;}
+.roleBollCut>li:nth-child(1){background: url(../Img/character-ttly-cut.png) no-repeat 0 80px/100% auto;opacity: 1;}
+.roleBollCut>li:nth-child(2){background: url(../Img/character-myl-cut.png) no-repeat 0 80px/100% auto;}
+.roleBollCut>li:nth-child(3){background: url(../Img/character-lili-cut.png) no-repeat 0 80px/100% auto;}
+.roleBollCut>li:nth-child(4){background: url(../Img/character-b-cut.png) no-repeat 0 80px/100% auto;}
+.roleBollCut>li:nth-child(5){background: url(../Img/character-aqie-cut.png) no-repeat 0 80px/100% auto;}
+/* 返回主页 */
+.box>a{display: block;position: absolute;top: 80px;left: 40px;font-size: 20px;color: #7d5417;line-height: 45px;z-index: 10;}
+.box>a>img{float: left;margin-right: 5px;}
+/* 切换人物 */
+.roleChange{width: 705px;height: 90px;position: absolute;background: url(../Img/pagination-bg.png) no-repeat 0 0/100% 100%;bottom: 10px;left: -150px;}
+.roleChange>span{display: inline-block;float: left;width: 124px;height: 120px;transform: translate3d(40px,-40px,0);z-index: 5;position: relative;}
+.roleChange>span>img.changImg{position: absolute;left: -11px;top: 3px;}
+/* 左侧放大镜 */
+.leftBig{width: 330px;height: 174px;position: absolute;left: 600px;top: 40px;overflow: hidden;display: none;}
+.leftBigImg{position: absolute;left: 0;top: 0;}
+/* 左侧遮罩层 */
+.blackTop{width: 166px;height: 88px;background: rgba(0,0,0,.5);position: absolute;top: 40px;left: 0;display: none;}
+/* 右侧放大镜 */
+.rightBig{width: 330px;height: 174px;position: absolute;left: 600px;top: 40px;overflow: hidden;display: none;}
+.rightBigImg{position: absolute;left: 0;top: 0;}
+/* 右侧遮罩层 */
+.blackTop1{width: 166px;height: 88px;background: rgba(0,0,0,.5);position: absolute;top: 40px;right: 0;display: none;}
